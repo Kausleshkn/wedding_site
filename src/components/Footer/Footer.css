@@ -1,0 +1,24 @@
+
+.ft-link a{
+    text-decoration: none;
+}
+
+.ft-aboutus p{
+    color: #ccc;
+}
+
+.social-icon h4{
+    color: #ccc;
+}
+
+.input-group button{
+    background-color: #c1273c;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+
+.input-group button:hover{
+    background-color: #cf0f29;
+    color: #fff;
+}
