@@ -1,0 +1,13 @@
+
+.listnone a{
+    text-decoration: none;
+}
+
+.navbar-brand img{
+    margin-top: 15px;
+}
+
+.custom-header{
+    position: fixed;
+    width: 100%;
+}

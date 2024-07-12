@@ -1,4 +1,5 @@
 import './Footer.css';
+import "../../fontawesome.css";
 
 export default function Footer() {
     return (
@@ -9,12 +10,12 @@ export default function Footer() {
 
                         <div className="col-md-5 ft-aboutus">
                             <a href="#">
-                                <img src="/img/logo1perfect.png" style={{ height: "125px", padding: " 15px 5px", marginTop: "-40px" }} alt="Wedding Vendors" className="img-responsive" />
+                                <img src="/img/logo.png" alt="Wedding Vendors" className="img-responsive" />
                             </a>
 
-                            <p>At Perfect Sangam, our mission is to connect individuals through our matrimony site, fostering meaningful relationships and lifelong partnerships.
+                            <p>At Wedding Vendor our purpose is to help people find great online network connecting wedding suppliers and wedding couples who use those suppliers.
                             </p>
-                            <a href="#" className="btn btn-default">Find Your Partner</a>
+                            <a href="#" className="custom-btn">Find A Vendor</a>
                         </div>
                         <div className="col-md-3 ft-link">
                             <h2>Useful links</h2>
@@ -40,11 +41,21 @@ export default function Footer() {
                             <div className="social-icon">
                                 <h4>Be Social &amp; Stay Connected</h4>
                                 <ul>
-                                    <li><a href="#"><i className="fa fa-facebook-square"></i></a></li>
-                                    <li><a href="#"><i className="fa fa-twitter-square"></i></a></li>
-                                    <li><a href="#"><i className="fa fa-google-plus-square"></i></a></li>
-                                    <li><a href="#"><i className="fa fa-instagram"></i></a></li>
-                                    <li><a href="#"><i className="fa fa-flickr"></i></a></li>
+                                    <li><a href="#">
+                                    <i className="fa-brands fa-facebook"></i>
+                                        </a></li>
+                                    <li><a href="#">
+                                    <i className="fa-brands fa-twitter"></i>
+                                        </a></li>
+                                    <li><a href="#">
+                                    <i className="fa-brands fa-tiktok"></i>
+                                        </a></li>
+                                    <li><a href="#">
+                                    <i className="fa-brands fa-instagram"></i>
+                                        </a></li>
+                                    <li><a href="#">
+                                        <i className="fa-brands fa-pinterest"></i>
+                                        </a></li>
                                 </ul>
                             </div>
                         </div>

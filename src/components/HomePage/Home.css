@@ -1,31 +1,79 @@
-
-.vendor-image img{
-    width: 300px;
-    height: 300px;
+.slider-bg {
+    overflow: hidden;
 }
 
-.real-wedding-img img{
+.find-section {
+    margin-left: 200px;
+}
+
+.feature-icon i {
+    color: #9e092a;
+    font-size: 4.5rem;
+}
+
+.vendor-total-title a {
+    text-decoration: none;
+}
+
+.real-wedding-title a {
+    text-decoration: none;
+}
+
+
+.custom-parallax {
+   padding: 4rem 6.5rem;
+}
+
+.custom-parallax-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.custom-parallax-content a{
     width: 250px;
-    height: 250px;
+    height: 55px;
+    background-color: #c1273c;
+    text-decoration: none;
+    padding: 15px 40px;
+    border-radius: 4px;
+    color: #ccc;
+    font-weight: 600;
 }
 
-.vendor-total-thumb img{
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
+.custom-parallax-content a:hover{
+    background-color: #cf0f29;
 }
 
-.couple-pic img{
-    border-radius: 50%;
-    margin: 0 auto;
+.feature-icon img {
+    width: 75px;
 }
 
-.btn-lg{
-    background-color: #c1273c !important;
-    color: #fff !important;
+.feature-info h3 {
+    font-size: 1.2rem;
 }
 
-.btn-lg:hover{
-    background-color: #db112c !important;
-    color: #fff !important;
+.custom-home-btn{
+    width: 135px;
+    height: 80px;
+    background-color: #c1273c;
+    text-decoration: none;
+    padding: 15px 40px;
+    border-radius: 4px;
+    color: #ccc;
+    font-weight: 600;
+}
+
+.custom-home-btn:hover{
+    background-color: #cf0f29;
+}
+
+.find-section button{
+    width: 150px;
+    height: 45px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
 }

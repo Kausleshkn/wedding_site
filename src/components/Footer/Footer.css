@@ -3,12 +3,24 @@
     text-decoration: none;
 }
 
+.ft-link h2{
+    font-size: 1.5rem;
+}
+
 .ft-aboutus p{
     color: #ccc;
 }
 
+.newsletter h2{
+    font-size: 1.5rem;
+}
+
 .social-icon h4{
     color: #ccc;
+}
+
+.social-icon ul li{
+    margin-left: 10px;
 }
 
 .input-group button{
@@ -21,4 +33,24 @@
 .input-group button:hover{
     background-color: #cf0f29;
     color: #fff;
+}
+
+.ft-aboutus p{
+    line-break:loose;
+}
+
+.custom-btn{
+    width: 80px;
+    height: 65px;
+    background-color: #c1273c;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 4px;
+    color: #ccc;
+    font-weight: 600;
+}
+
+.custom-btn:hover{
+    background-color: #cf0f29;
+    color: #ccc !important;
 }
